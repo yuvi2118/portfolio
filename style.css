@@ -1,0 +1,210 @@
+body{
+  text-align: center;
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+/* navbar start*/
+.navbar-brand{
+  margin-left: 9%;
+
+}
+.brand-1st-half{
+  font-size: 3rem;
+  color: white;
+}
+.brand-2nd-half{
+  font-size: 3rem;
+  color: #f9004d;
+}
+.yuvraj{
+  font-size: 4rem;
+  color:white;
+}
+.singh{
+  font-size: 4rem;
+  color: #f9004d;
+}
+.navbar {
+  padding:3% 0 3% 0;
+  background: linear-gradient(180deg, rgba(255,229,228,1) 2%, rgba(252,151,149,1) 59%, rgba(252,147,144,1) 100%);
+
+}
+.nav-item {
+  padding: 0 40px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color:white;
+}
+.nav-link:hover{
+  color: #f9004d;
+}
+
+.sus-btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border:0 solid transparent;
+  font-size: 1.2rem;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
+.sus-btn:hover{
+	transform: scale(1.2);
+  color:white;
+}
+
+/* navbar end */
+
+/* section 1 */
+.section-1{
+  background: linear-gradient(180deg, rgba(252,147,144,1) 0%, rgba(144,177,252,1) 100%);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+
+
+/* section1 end */
+.content{
+  padding:10% 20% 20% 10%;
+  text-align: left;
+}
+.main{
+  padding: 20%;
+  background: linear-gradient(176deg, rgba(144,177,252,1) 0%, rgba(252,147,144,1) 100%);
+  text-align: left;
+  margin:0;
+}
+.yuvraj-img{
+  width: 100%;
+}
+h2{
+  font-size: 2.5rem;
+}
+.about-head{
+  color: #f9004d;
+  margin:0;
+}
+.about-para{
+  margin:1% ;
+  font-size: 2rem;
+  padding: 3% 0;
+  color:black;
+}
+
+
+/* service-card section start */
+.service{
+  background-color: black;
+  padding: 10%;
+}
+.our-service-heading{
+  font-size: 5rem;
+  color: white;
+}
+
+.about-column {
+  padding: 0
+    /*T&B*/
+    2%
+    /*L&R*/
+  ;
+  color: #fac8d7;
+  font-size: 1.3rem;
+}
+.card {
+  background:#1b1b1b;
+  border-radius: 20px;
+  margin: 15px;
+  overflow: hidden;
+}
+i{
+  font-size: 2rem;
+}
+.about-i{
+  margin:3%;
+  color: #f9004d;
+}
+h5{
+  margin:3% ;
+  color: white;
+  font-size: 2rem;
+  padding: 3% 0;
+}
+.button{
+  background-color: #f9004d;
+  padding: 5%;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration:none;
+  border-radius: 10px;
+}
+.button:hover{
+  background-color: #ffb8ce;
+  color: #f9004d;
+}
+/* service-card section end */
+
+/* contact-us start */
+.contact-us{
+  background-color:#1b1b1b;
+  color:white;
+  padding: 2%;
+}
+.hire-me-btn{
+  background-color: #f9004d;
+  font-size: 1.5rem;
+  padding:1%;
+  color: white;
+  text-decoration:none;
+  border-radius: 10px;
+}
+.hire-me-btn:hover{
+  background-color: #ffb8ce;
+  color: #f9004d;
+}
+/* contact-us end */
+
+/* footer start */
+.para{
+  margin:1% ;
+  color: white;
+  font-size: 2rem;
+  padding: 3% 0;
+}
+.footer{
+  padding: 2%;
+  background-color:black;
+  color: white;
+}
+.foot-i{
+  margin:3%;
+  border-radius: 7px;
+  padding: 1%;
+  color: white;
+}
+.fa-youtube{
+  background-color: red;
+}
+.fa-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.fa-github{
+  background-color: black;
+}
+.fa-linkedin{
+  background-color: #3859b5;
+}
+.end{
+  color: #f9004d;
+}
+/* footer end */
